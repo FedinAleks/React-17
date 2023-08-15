@@ -41,7 +41,7 @@ const Contacts = ({ contacts }) => {
             checked={showMale}
             onChange={() => setShowMale(!showMale)}
           />
-          Чоловіки (Ч)
+          Чоловік
         </label>
         <label>
           <input className="checkbox"
@@ -49,7 +49,7 @@ const Contacts = ({ contacts }) => {
             checked={showFemale}
             onChange={() => setShowFemale(!showFemale)}
           />
-          Жінки (Ж)
+          Жінка
         </label>
       </div>
       <div className="contacts">

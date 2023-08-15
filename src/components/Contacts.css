@@ -12,9 +12,16 @@
     background-size: 200% 200%;
     color: white;
 }
+h2 {
+    font-size: 36px;
+}
 .searcher {
+    display: flex;
+    padding: 7px 8px;
+    align-items: center;
+    align-self: stretch;
     font-size: 16px;
-    width: 300px;
+    width: 340px;
     height: 40px;
     border: none;
     border-radius: 10px;
@@ -30,21 +37,24 @@
 }
   
 .contact-item {
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    width: 300px;
+    border-radius: 12px;
+    background: var(--materials-regular-dark, linear-gradient(0deg, #8C8C8C 0%, #8C8C8C 100%), rgba(37, 37, 37, 0.82));
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.20);
+    backdrop-filter: blur(75px);
+    padding: 10%;
+    margin: 5%;
 }
   
 .contact-item:hover {
-    background-color: #f0f0f0;
+    background-color: #820099;
 }
-  
+
 .selected {
-    background-color: #e0e0e0;
+    background-color: #820099;
 }
-  
+
 .contact {
     font-size: 16px;
     text-align: left;
@@ -53,6 +63,7 @@
     border-radius: 100px;
     background: var(--colors-blue, #0A84FF);
     backdrop-filter: blur(20px);
+    border: none;
 }
 
 @keyframes gradientAnimation {
