@@ -1,6 +1,6 @@
 import React from 'react';
-import Contacts from './components/Contacts';
-import './App.css';
+import Contacts from './css/components/Contacts.css';
+import './css/App.css';
 
 const contacts = [
   {
