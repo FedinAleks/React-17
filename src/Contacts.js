@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Contact from './js/components/Contact';
-import './css/components/Contacts';
+import Contact from './Contact.js';
+import './Contacts.css';
 
 const Contacts = ({ contacts }) => {
   const [selectedContactIndex, setSelectedContactIndex] = useState(null);
